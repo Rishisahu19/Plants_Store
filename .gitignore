@@ -1,0 +1,12 @@
+# Node.js / Express backend
+Backend/node_modules/
+Backend/dist/
+Backend/.env
+
+# React / Vite frontend
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.env
+
+# Logs
+*.log
