@@ -1,4 +1,4 @@
-import Plant from "../models/plant.js";
+import Plant from "../models/Plant.js";
 
 // ✅ Get plants (with search, name, category support)
 export const getPlants = async (req, res, next) => {
