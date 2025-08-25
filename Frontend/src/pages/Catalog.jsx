@@ -13,7 +13,7 @@ const Catalog = () => {
     setLoading(true);
     try {
       const res = await axios.get(
-        `${import.meta.env.VITE_API_URL}/plants`,
+        `${import.meta.env.VITE_API_URL}/api/plants`,
         { params: { search: query } }
       );
 

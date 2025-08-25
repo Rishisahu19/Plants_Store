@@ -23,6 +23,7 @@ const app = express();
 app.use(cors({
   origin: "*",
 }));
+
 app.use(express.json());
 if (process.env.NODE_ENV !== "production") app.use(morgan("dev"));
 
